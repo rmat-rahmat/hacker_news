@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Comment screen renders Comment correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 0.9,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "grey",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      tester2
+       || 
+      10 years ago
+    </Text>
+    <View
+      style={
+        Array [
+          Object {},
+          undefined,
+          undefined,
+        ]
+      }
+      testID="html"
+    >
+      <View
+        style={
+          Array [
+            Object {},
+            undefined,
+            undefined,
+          ]
+        }
+        testID="body"
+      >
+        <Text
+          allowFontScaling={true}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "black",
+                "fontSize": 15,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          this is comment 2
+        </Text>
+      </View>
+    </View>
+    <View
+      style={Object {}}
+    />
+  </View>
+</View>
+`;

@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Details screen renders ListInfo correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "padding": 10,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "black",
+        "flex": 0.1,
+        "fontSize": 15,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 0.9,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 20,
+        }
+      }
+    >
+      This is test story
+       
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": 15,
+          }
+        }
+      >
+        (
+        getdropbox.com
+        )
+      </Text>
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "grey",
+          "fontSize": 15,
+        }
+      }
+    >
+      111
+       points || by 
+      Tester
+       || 
+      15 years ago
+    </Text>
+    <View
+      style={
+        Object {
+          "color": "black",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <View
+        accessibilityLabel="view comments"
+        accessibilityRole="button"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#007AFF",
+                  "fontSize": 18,
+                  "margin": 8,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#841584",
+                },
+              ]
+            }
+          >
+            71 comments
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
