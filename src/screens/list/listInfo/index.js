@@ -13,6 +13,7 @@ const ListInfo = ({ data, setIndex }) => {
         <Text style={styles.textContent}>{data.score} points || by {data.by} || {timeSince(data.time)}</Text>
         <View style={styles.extraData}>
           <Button
+            disabled={data.descendants?false:true}
             onPress={() => setIndex(data.id)}
             title={(data.descendants || "0") + " comments"}
             color="#841584"
